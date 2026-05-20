@@ -5,7 +5,7 @@
 
 
 </template>
-<script setup></script>
+
 <style scoped>
     div{
         background-color: rgb(34, 167, 67);

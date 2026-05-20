@@ -8,7 +8,7 @@
 </template>
 <script setup>
     import { ref, onMounted } from 'vue'
-    const name = ref('')
+    const name = ref('Загрузка...')
     onMounted(async () => {
         const response = await fetch('https://swapi.py4e.com/api/people/1/')
     
